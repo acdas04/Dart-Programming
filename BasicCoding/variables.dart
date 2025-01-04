@@ -30,10 +30,14 @@ void main() {
   print('Dynamic variable: $anything');
 
   // Constant variable
-  const double pi = 3.14159;
+  const double pi = 3.14159; // compile time constant
   print('Pi: $pi');
 
   // Final variable
   final DateTime now = DateTime.now();
   print('Current Date and Time: $now');
+  // const int id;
+  // id = 100;
+  final int id; // runtime constant
+  id = 38;
 }
